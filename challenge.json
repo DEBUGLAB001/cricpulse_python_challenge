@@ -1,3 +1,5 @@
+
+
 {
   "challenge_id": "cricpulse-live-analytics-python",
   "runtime_config": {
@@ -6,5 +8,13 @@
     "start_command": "python -m flask --app app run --reload --host 0.0.0.0 --port 5000",
     "test_command": "./tests/run_tests.sh",
     "ports": [{ "container_port": 5000, "type": "preview" }]
-  }
+  },
+  "bug_topics": [
+    "Graph Traversal",
+    "Sliding Window",
+    "Moving Average",
+    "Maximum Bottleneck Path",
+    "Access Control",
+    "Rate Limiting"
+  ]
 }
